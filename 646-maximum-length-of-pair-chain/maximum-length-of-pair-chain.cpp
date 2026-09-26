@@ -9,7 +9,12 @@ int fun(int i,vector<vector<int>>&nums){
 
     int id=nums.size();
 
-  
+    // for(int j=i+1;j<nums.size();j++){
+    //     if(nums[j][0]>nums[i][1]){
+    //         id=j;
+    //         break;
+    //     }
+    // }
 
     int l=i+1;
     int h=nums.size()-1;
