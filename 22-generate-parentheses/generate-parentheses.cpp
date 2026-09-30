@@ -3,11 +3,11 @@ public:
 
     void fun(int n, int open, int close, string s, vector<string>& ans) {
 
-      
-        if (open == n && close == n) {
-            ans.push_back(s);
-            return;
-        }
+      if(s.length()==2*n){
+        ans.push_back(s);
+        return;
+      }
+  
 
        
         if (open < n) {
